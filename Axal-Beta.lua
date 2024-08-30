@@ -5,7 +5,7 @@ local teams = game:GetService("Teams")
 local plr_service = game:GetService("Players")
 
 local features = {
-    chams = {teamcheck = true, color = {fill = Color3.fromRGB(77, 19, 171), outline = Color3.fromRGB(119, 121, 255)}, transparency = {fill = 0, outline = 0}}
+    chams = {teamcheck = true, color = {fill = Color3.fromRGB(19, 252, 3), outline = Color3.fromRGB(19, 252, 3)}, transparency = {fill = 0, outline = 0}}
 }
 
 function get_players()
