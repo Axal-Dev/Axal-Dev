@@ -20,3 +20,4 @@ for _, Supported in Games do
 end
 
 Library:Notify("Ton jeux n'est pas supporter !")
+loadstring(Fetch("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
