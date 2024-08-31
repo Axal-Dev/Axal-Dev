@@ -19,5 +19,5 @@ for _, Supported in Games do
     end
 end
 
-Library:Notify("Ton jeux n'est pas supporter ! (InfiniteYield)")
+Library:Notify("Ton jeux n'est pas supporter ! Loading InfiniteYield.....")
 loadstring(Fetch("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
