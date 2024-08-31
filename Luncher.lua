@@ -12,7 +12,7 @@ end
 
 for _, Supported in Games do
     if Supported.gameid == GameId then
-        Library:Notify(`Axal-Dev a détécter que tu est sur in {Supported.name}.`, 5)
+        Library:Notify(`Axal-Dev a détécter que tu est in {Supported.name}.`, 5)
 
         loadstring(Fetch(Supported.link))()
         return "loaded regular"
