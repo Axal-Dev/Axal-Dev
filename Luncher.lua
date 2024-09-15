@@ -2,8 +2,7 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/violi
 local GameId = game.GameId
 
 local Games = {
-    { name = "Phantom Forces", gameid = 113491250, link = "https://raw.githubusercontent.com/Axal-Dev/Axal-Dev/main/Game/Phantom%20Forces.lua"},
-    { name = "test place", gameid = 299659045, link = "https://raw.githubusercontent.com/Axal-Dev/Axal-Dev/main/Game/Phantom%20Forces.lua"},
+    { name = "Phantom Forces", gameid = 113491250, link = "https://raw.githubusercontent.com/Axal-Dev/Axal-Dev/main/Script/Phantom%20Forces.lua"},
 }
 
 function Fetch(URL)
