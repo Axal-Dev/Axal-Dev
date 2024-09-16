@@ -3,6 +3,7 @@ local GameId = game.GameId
 
 local Games = {
     { name = "Phantom Forces", gameid = 113491250, link = "https://raw.githubusercontent.com/Axal-Dev/Axal-Dev/main/Script/Phantom%20Forces.lua"},
+    { name = "Phantom Forces Test Place", gameid = 115272207, link = "https://raw.githubusercontent.com/Axal-Dev/Axal-Dev/main/Script/Phantom%20Forces.lua" },
 }
 
 function Fetch(URL)
