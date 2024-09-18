@@ -6,7 +6,7 @@ local thememng = loadstring(game:HttpGet(repository .. "addons/ThemeManager.lua"
 local savemng = loadstring(game:HttpGet(repository .. "addons/SaveManager.lua"))();
 
 local window = lib:CreateWindow({
-    Title = "Made by Introuvables",
+    Title = "Axal Menu 2024 Private",
     Center = true,
     AutoShow = true,
     TabPadding = 8,
@@ -54,7 +54,7 @@ local aimbot_section = tabs.combat_tab:AddLeftGroupbox("aimbot"); do
 
     aimbot_section:AddSlider("aimbot_speed", {
         Text = "Aimbot Speed",
-        Default = 5,
+        Default = 1,
         Min = 0,
         Max = 10,
         Rounding = 1,
@@ -63,7 +63,7 @@ local aimbot_section = tabs.combat_tab:AddLeftGroupbox("aimbot"); do
 
     aimbot_section:AddSlider("prediction_value", {
         Text = "Prediction Value",
-        Default = 2,
+        Default = 1,
         Min = 0,
         Max = 10,
         Rounding = 1,
@@ -106,7 +106,7 @@ end
 local menu_section = tabs["settings"]:AddLeftGroupbox("Menu"); do
 
     menu_section:AddButton("Unload", function() lib:Unload() end)
-    menu_section:AddLabel("Menu bind"):AddKeyPicker("MenuKeybind", { Default = "End", NoUI = true, Text = "Menu keybind" })
+    menu_section:AddLabel("Menu bind"):AddKeyPicker("MenuKeybind", { Default = "Rig", NoUI = true, Text = "Menu keybind" })
 
     lib.ToggleKeybind = Options.MenuKeybind
 
