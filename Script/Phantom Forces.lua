@@ -6,7 +6,7 @@ local thememng = loadstring(game:HttpGet(repository .. "addons/ThemeManager.lua"
 local savemng = loadstring(game:HttpGet(repository .. "addons/SaveManager.lua"))();
 
 local window = lib:CreateWindow({
-    Title = "Axal Menu 2024 Private",
+    Title = "Axal Menu 1.0",
     Center = true,
     AutoShow = true,
     TabPadding = 8,
