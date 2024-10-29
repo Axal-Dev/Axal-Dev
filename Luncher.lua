@@ -1,4 +1,3 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Axal-Dev/Axal-Dev/refs/heads/main/dafgdqhggfszhfshfsh.lua"))()
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/violin-suzutsuki/LinoriaLib/main/Library.lua"))()
 local GameId = game.GameId
 
